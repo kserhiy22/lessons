@@ -1,0 +1,146 @@
+@import url('reset.css');
+
+body {
+	color: bisque;
+}
+
+body * {
+	color: black;
+}
+
+/* HEADER */
+nav a {
+	color: rgb(241, 124, 14);
+}
+
+span+a {
+	color: rgb(241, 14, 173);
+}
+
+span~span+a {
+	color: green;
+}
+
+span~span~span+a {
+	color: blue;
+}
+
+a+span {
+	color: blue;
+}
+
+span~span {
+	color: orange;
+}
+
+span+a~a+span {
+	color: yellowgreen;
+}
+
+a~a~a~a+span {
+	color: blueviolet;
+}
+
+.advices li a {
+	color: darkblue;
+}
+
+.advices li+li a {
+	color: chocolate;
+}
+
+.advices ul li a {
+	color: darkgreen;
+}
+
+.advices ul li+li a {
+	color: lawngreen;
+}
+
+.advices li+li+li a {
+	color: fuchsia;
+}
+
+.advices li+li+li a {
+	color: fuchsia;
+}
+
+.advices li+li+li+li a {
+	color: dimgray;
+}
+
+.advices li+li+li+li+li a {
+	color: brown;
+}
+
+/* MAIN */
+h1 {
+	color: darkblue;
+}
+
+div p {
+	color: gray;
+}
+
+mark {
+	color: red;
+}
+
+.main-container+div>p {
+	color: blueviolet;
+}
+
+.title {
+	color: chocolate;
+}
+
+[class*="-span"] {
+	color: darkgreen;
+}
+
+[class="wall-span subtitle"] {
+	color: lawngreen;
+}
+
+h2.color-title.title {
+	color: fuchsia;
+}
+
+.color-container p {
+	color: darkcyan;
+}
+
+#stone {
+	color: dimgray;
+}
+
+[class*="-container"] .text {
+	color: darkgoldenrod;
+}
+
+.stone-container p {
+	color: blue;
+}
+
+.stone.text.block {
+	color: red;
+}
+
+.wood-container .wood-title {
+	color: brown;
+}
+
+.wood-container p {
+	color: rgb(63, 165, 42);
+}
+
+/* костиль */
+.every-year {
+	color: chartreuse !important;
+}
+
+/* FOOTER */
+
+.nav-footer a {
+	color: darkblue;
+}
