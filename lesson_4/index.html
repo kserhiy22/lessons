@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- підлючення шрифту з сайту https://fonts.google.com -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+	<!-- підлючення шрифту плагіном Google Fonts (VS Code) -->
+	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:500&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="img/icons/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson №4</title>
+</head>
+
+<body>
+	<header id="header" class="header">
+		<div class="nav">
+			<a href="#footer">
+				<img src="img/icons/arrow_down.png" alt="вниз" title="вниз">
+			</a>
+		</div>
+	</header>
+	<main class="page">
+		<div class="page-container">
+			<div class="main-block">
+				<h1>РЕЙТИНГ СУПЕРКОМП’ЮТЕРІВ 2022: НАЙПОТУЖНІШІ ТА ПРОСТО ЦІКАВІ</h1>
+				<div id="main-image" class="main-block-image">
+					<img src="img/lumi.jpg" alt="суперкомп’ютер">
+				</div>
+				<p>
+					Офіційний рейтинг найпотужніших обчислювальних систем планети ведеться з 1992 року. Хоча першим
+					суперкомп’ютером вважається Cray-1, створений 1976 року Сеймуром Креєм. Американського інженера в
+					результаті прозвали «батьком суперкомп’ютерів», а його компанія Cray Inc, вже під крилом Hewlett Packard,
+					досі є одним із лідерів суперкомп’ютеробудування. Основним мірилом швидкодії є бенчмарк щільних систем
+					лінійних алгебраїчних обчислень Linpack. Хоча з 2017 року провадиться перетест альтернативним бенчмарком
+					розріджених матриць HPCG.
+				</p>
+			</div>
+			<div class="main-nav">
+				<h2>Зміст</h2>
+				<ul class="nav-list">
+					<li><a href="#place-1-9">місце з 1 по 9</a></li>
+					<li><a href="#place-1">1 місце — <span>Frontier</span></a></li>
+					<li><a href="#place-2">2 місце — <span>Supercomputer Fugaku</span></a></li>
+					<li><a href="#lumi">3 місце — <span>LUMI</span></a></li>
+					<li><a href="#summit">4 і 5 місце — <span>Summit</span> і <span>Sierra</span> (149 і 95
+							<span>PFLOPS</span>)</a></li>
+					<li><a href="#sunway">6 місце — <span>Sunway TaihuLight</span></a></li>
+					<li><a href="#tianhe">9 місце — <span>Tianhe-2A</span> (<span>інша назва Milkyway-2A</span>)</a></li>
+					<li><a href="#place-12-105">місце з 12 по 105</a></li>
+					<li><a href="#voyager">12, 13 і 15 місце — <span>HPC5, Voyager-EUS2</span> і <span>SSC-21</span></a></li>
+					<li><a href="#daint">23 місце — <span>Piz Daint</span> (читається німецькою як «Піц Дайнт»)</a></li>
+					<li><a href="#dammam">18 і 74 місце — <span>Dammam-7</span> та <span>Artemis</span></a></li>
+					<li><a href="#gadi">57 і 60 місце — <span>Gadi</span> та <span>Dragao</span></a></li>
+					<li><a href="#karolina">79 і 105 місце — <span>Karolina</span> та <span>Athena</span></a></li>
+				</ul>
+			</div>
+			<div class="basic-block">
+				<h2 id="place-1-9">місце з 1 по 9</h2>
+				<div id="place-1" class="frontier">
+					<h3>1 місце – <span>Frontier</span></h3>
+					<div class="basic-block-image-1">
+						<img src="img/frontier.webp" alt="supercomputer Frontier" title="Frontier">
+					</div>
+					<p>
+						Схоже, суперкомп’ютера Summit Окріджської національної лабораторії виявилося замало — і HP збудувала
+						для них нового монстра з потужністю 1.1 EFLOPS (1100 PFLOPS). Вирватися настільки сильно вперед
+						вдалося завдяки 64-ядерним процесорам AMD EPYC 3rd Gen і відеокартам AMD Instinct MI250X.
+						Енергоспоживання склало 21 МВт, що є другим найкращим показником у перерахунку на продуктивність.
+						Екологічніший тільки молодший брат Frontier TDS (29 місце у Linpack).
+					</p>
+				</div>
+				<div id="place-2" class="fugaku">
+					<h3>2 місце – <span>Supercomputer Fugaku</span></h3>
+					<div class="fugaku-image">
+						<img src="img/fugaku.jpg" alt="supercomputer fugaku" title="Supercomputer Fugaku">
+					</div>
+					<p>
+						Торішній чемпіон Linpack (442 PFLOPS) родом з Японії все ще утримує лідерство в тесті HPCG. Все
+						завдяки ставці на центральні процесори, замість відеокарт — Fujitsu A64FX з 48 ядрами архітектури ARM.
+						Та й енерго-апетит у нього чемпіонський — майже 30 МВт.
+					</p>
+				</div>
+				<div id="lumi" class="lumi">
+					<h3>3 місце — <span><a href="#main-image">LUMI</a></span></h3>
+					<p>
+						Фінляндія славиться не лише найшвидшими автогонщиками, а й найшвидшим у Європі суперкомп’ютером. В
+						обох бенчмарках Linpack і HPCG займає LUMI однакове 3 місце. До речі, у Фінляндії знаходяться ще два
+						суперкомпи з TOP500, названі Mahti та Puhti.
+					</p>
+				</div>
+				<div id="summit" class="summit-sierra">
+					<h3>4 і 5 місце — <span>Summit</span> і <span>Sierra</span> (<span>149</span> і <span>95 PFLOPS</span>)
+					</h3>
+					<div class="summit-sierra-image">
+						<img src="img/summit.jpg" alt="supercomputer Summit" title="Summit">
+						<img src="img/sierra.jpg" alt="supercomputer Sierra" title="Sierra">
+					</div>
+					<p>
+						Американські брати-суперкомп’ютери на базі 22-ядерних процесорів IBM POWER9, що знаходяться в
+						Окріджській та Ліверморській національних лабораторіях. Використовуються для досліджень у галузі
+						атомної енергетики та ядерної зброї. Крім CPU, використовують відеокарти NVIDIA Volta GV100. У тесті
+						HPCG займає Summit більш високе 2 місце.
+					</p>
+				</div>
+				<div id="sunway" class="sunway">
+					<h3>6 місце — <span>Sunway TaihuLight</span></h3>
+					<div class="sunway-image">
+						<img src="img/sunway.jpg" alt="supercomputer Sunway TaihuLight" title="Sunway TaihuLight">
+					</div>
+					<p>
+						Ще один китайський обчислювальний монстр, розташований у місті Усі. Замість класичних CPU та GPU,
+						використовує вузькоспеціальні RISC-процесори Sunway SW26010, кожен із 260 ядрами. Сумарно виходить 10
+						мільйонів ядер, хай і архітектурно слабших, ніж x86_64. В результаті Sunway видає 93 PFLOPS у Linpack,
+						тоді як у альтернативному тесті HPCG показує лише 18 результат у світі.
+					</p>
+				</div>
+				<div id="tianhe" class="tianhe">
+					<h3>9 місце — <span>Tianhe-2A</span> (інша назва <span>Milkyway-2A</span>)</h3>
+					<div class="tianhe-image">
+						<img src="img/tianhe.jpg" alt="supercomputer Tianhe-2A" title="Tianhe-2A">
+					</div>
+					<p>
+						Побудований китайською компанією Inspur для Національного суперкомп’ютерного центру Гуанчжоу. У
+						середині 2010-х залишався найпотужнішою обчислювальною системою у світі аж два з половиною роки
+						(зазвичай лідер змінюється кожні півроку). Грунтується на процесорах Intel Xeon E5-2692v2 сумарно із
+						майже 5 мільйонами ядер. Є третім найбільш енерго-ненажерливим у світі — 18 МВт.
+					</p>
+				</div>
+				<h2 id="place-12-105">місце з 12 по 105</h2>
+				<div id="voyager" class="voyager">
+					<h3>12, 13 і 15 місце — <span>HPC5, Voyager-EUS2</span> і <span>SSC-21</span></h3>
+					<div class="voyager-image">
+						<img src="img/voyager.jpg" alt="supercomputer Voyager" title="Voyager">
+					</div>
+					<p>
+						Найпродуктивніші суперкомп’ютери, що належать не державним науковим установам, а приватним компаніям.
+						А саме італійській нафтогазовій компанії Eni S.p.A., а також Microsoft і Samsung. Перший побудований
+						інженерами Dell, а другий і третій — власноруч Microsoft і Samsung. Причому Voyager
+						клієнтоорієнтований — надає хмарні послуги Azure.
+					</p>
+				</div>
+				<div id="daint" class="daint">
+					<h3>23 місце — <span>Piz Daint</span> (читається німецькою як «Піц Дайнт»)</h3>
+					<div class="daint-image">
+						<img src="img/daint.jpg" alt="supercomputer Piz Daint" title="Piz Daint">
+					</div>
+					<p>
+						Був запущений на підтримку Великого адронного коллайдера силами вищезгаданої Cray Inc. А після
+						об’єднання з іншим швейцарським суперкомп’ютером Piz Dora, довгий час був найпотужнішим у Європі.
+					</p>
+				</div>
+				<div id="dammam" class="dammam">
+					<h3>18 і 74 місце — <span>Dammam-7</span> та <span>Artemis</span></h3>
+					<div class="dammam-image">
+						<img src="img/dammam.jpg" alt="supercomputer Dammam-7" title="Dammam-7">
+					</div>
+					<p>
+						Топові суперкомп’ютери Близького Сходу, які належать приватній нафтовидобувній компанії Saudi Aramco
+						(Саудівська Аравія) та хмарному провайдеру Group 42 (ОАЕ). Спроектовані HP та NVIDIA відповідно. В
+						альтернативному бенчмарку HPCG займає Dammam-7 більш почесне 8 місце. До речі, Saudi Aramco належать
+						ще чотири позиції у рейтингу суперкомп’ютерів TOP500.org.
+					</p>
+				</div>
+				<div id="gadi" class="gadi">
+					<h3>57 і 60 місце — <span>Gadi</span> та <span>Dragao</span></h3>
+					<div class="gadi-image">
+						<img src="img/gadi.jpg" alt="supercomputer Gadi" title="Gadi">
+						<img src="img/dragao.jpg" alt="supercomputer Dragao" title="Dragao">
+					</div>
+					<p>
+						Найпотужніші суперкомп’ютери в південній півкулі знаходяться в Австралії та Бразилії відповідно.
+						Перший створений компанією Lenovo, що не вимагає представлення, а другий — найбільшим європейським
+						будівельником суперкомп’ютерів Atos (Франція).
+					</p>
+				</div>
+				<div id="karolina" class="karolina">
+					<h3>79 і 105 місце — <span>Karolina</span> та <span>Athena</span></h3>
+					<div class="karolina-image">
+						<img src="img/karol1na.jpg" alt="supercomputer Karolina" title="Karolina">
+						<img src="img/athena.jpg" alt="supercomputer Athena" title="Athena">
+					</div>
+					<p>
+						Передові обчислювальні системи східної Європи розташовані в суперкомп’ютерних центрах чеської Острави
+						та польського Кракова. Перший побудований силами техногіганта Hewlett-Packard, а другий порівняно
+						невеликою польською компанією Format. На додачу Athena займає 9 місце у рейтингу найенергоефективніших
+						суперкомп’ютерів Green500.
+					</p>
+				</div>
+				<div class="conclusion">
+					<p>
+						Якщо рахувати в штуках, то більше третини суперкомп’ютерів зі списку TOP500 розташовані на території
+						Китаю. Але за сумарною обчислювальною потужністю лідирує США — майже половина. На третьому місці
+						знаходиться Японія з часткою в штуках 7 %, а в потужностях — 14 %. За нею слідує Німеччина, Франція,
+						Канада та Великобританія. Мільярдна Індія у своєму розпорядженні має всього три суперкомпи, тоді як
+						півмільйонний Люксембург — аж два. Чемпіоном Африки вважається марокканський Toubkal (162 місце у
+						глобальному рейтингу). А з чуток, Китай вже завершив будівництво двох екзафлопних систем — Sunway
+						Oceanlite та Tianhe-3, але поки що тримає результати бенчмарків у секреті.
+						<br>
+						<span>а це текст для відпрацювання line-through, nowrap та capitalize. а це текст для відпрацювання
+							line-through, nowrap та capitalize. а це текст для відпрацювання line-through, nowrap та
+							capitalize.</span>
+						<span>А тут - відміна властивостей: line-through, nowrap та capitalize. А тут - відміна властивостей:
+							line-through, nowrap та capitalize. А тут - відміна властивостей: line-through, nowrap та
+							capitalize. А тут - відміна властивостей: line-through, nowrap та capitalize. А тут - відміна
+							властивостей: line-through, nowrap та capitalize. А тут - відміна властивостей: line-through,
+							nowrap та capitalize. </span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer id="footer" class="footer">
+		<div class="nav">
+			<a href="#header">
+				<img src="img/icons/arrow_up.png" alt="наверх" title="наверх">
+			</a>
+		</div>
+	</footer>
+</body>
+
+</html>
