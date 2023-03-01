@@ -138,6 +138,7 @@ h1 {
 	max-width: 470px;
 }
 .speaker-title-block a.link {
+	display: inline-block;
 	font-weight: 600;
 	line-height: 1.5;
 	color: #FFFFFF;
