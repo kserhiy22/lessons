@@ -454,7 +454,7 @@ h1 {
 .speaker-title > *:last-child {
 	margin-bottom: 0px;
 }
-.speaker-title-block a.link {
+.speaker-title-block a.button {
 	display: inline-block;
 	font-weight: 600;
 	line-height: 1.5;
@@ -464,14 +464,16 @@ h1 {
 	background: #3056D3;
 	border-radius: 30px;
 }
-.speaker-title-block a.link:hover {
+.speaker-title-block a.button:hover {
 	color: #FFFFFF;
 	background: #1f3c9b;
 }
-.speaker-title-block a.link:active {
+.speaker-title-block a.button:active {
 	color: #3056D3;
 	background: transparent;
 	outline: 3px solid #3056D3;
+	box-shadow: 0px 0px 15px 2px gray;
+
 }
 .price:active {
 	transform: rotate(30deg) scale(0);
