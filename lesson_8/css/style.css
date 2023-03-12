@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+@import url('reset.css');
+
+body {
+	background: url('../img/icons/background.svg') 50% / cover no-repeat rgb(211, 211, 211);
+}
+.header {
+	padding: 30px 0;
+}
+.main-menu {
+	text-align: center;
+}
+.main-menu li {
+	display: inline-block;
+	margin-right: 20px;
+	height: 50px;
+	vertical-align: top;
+}
+.main-menu a {
+	display: inline-block;
+	background-color: rgb(47, 201, 9);
+	font-size: 20px;
+	border: 1px solid;
+	border-radius: 30px;
+	padding: 7px 25px;
+	margin-top: 5px;
+	box-shadow: 0px 3px 0px rgb(0, 0, 0), inset 0px 0px 10px gray;
+}
+.main-menu a:hover {
+	background-color: rgb(47, 201, 9);
+	outline: 1px solid rgb(172, 172, 172);
+	color: blue;
+}
+.main-menu a:active {
+	margin-top: 7px;
+	transition: all 0.3s ease 0s;
+	box-shadow: 0px 0px 0px rgb(0, 0, 0),  0px 0px 10px rgb(122, 122, 122), inset 0px 0px 10px 2px rgb(84, 101, 126);
+}
+.button-reset {
+	display: block;
+	float: right;
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	outline: 1px solid rgb(212, 212, 212);
+	border-radius: 50%;
+	margin-right: 30px;
+	box-shadow: 0px 0px 3px 3px rgb(141, 141, 141), inset 0px 0px 5px 1px rgb(107, 67, 67);
+}
+.button-reset:hover {
+	outline: 1px solid rgb(172, 172, 172);
+	box-shadow: 0px 0px 10px 0px black, inset 0px 0px 5px 1px rgb(107, 67, 67);
+}
+.button-reset:active {
+	box-shadow: 0px 0px 0px rgb(0, 0, 0),  0px 0px 10px rgb(122, 122, 122), inset 0px 0px 10px 2px rgb(84, 101, 126);
+	/* margin-top: 1px; */
+	/* transition: 0.1s; */
+	outline: 1px solid rgb(230, 230, 230);
+}
+.button-reset:focus {
+	outline: 1px solid rgb(230, 230, 230);
+}
+
+/* =============== VENCE =============== */
+.vence-header {
+	font-family: 'Poppins', sans-serif;
+	color: #F8F9FA;
+	background: url('../img/01.png') center / cover no-repeat rgb(67, 92, 110);
+}
+.vence-header-container {
+	max-width: 1270px;
+	padding: 36px 15px 40px;
+	margin: 0 auto;
+}
+.logo,
+.menu * {
+	display: inline-block;
+	vertical-align: top;
+}
+.logo {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.39;
+	margin-bottom: 269px;
+}
+.logo::after {
+	content: ".";
+	display: inline-block;
+	color: #DDBEA9;
+}
+.logo:active::after {
+	color: #F8F9FA;
+}
+.logo:target {
+	transform: scale(1.5);
+	color: #5f7985;
+}
+/* сьогоді дізнався, що float - більш підходить для обтікання зображення текстом, а не для побудови конструкций. В майбутньому - буде flex */
+.menu {
+	float: right;
+}
+.menu li {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 2.08;
+}
+.menu li:not(:last-child) {
+	margin-right: 25px;
+}
+.item:nth-child(2)::after,
+.item:nth-child(3)::after,
+.sub-subitem span::after {
+	content: "";
+	display: inline-block;
+	width: 8px;
+	height: 4.85px;
+	background: url('../img/icons/checkmark-menu.svg');
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.item:nth-child(2):hover::after,
+.item:nth-child(3):hover::after,
+.sub-subitem span:hover::after {
+	transform: scale(1.5);
+	transition: 0.5s;
+}
+.subitem,
+.subitem2 {
+	display: none;
+	color: #F8F9FA;
+}
+.subitem:target,
+.subitem2:target {
+	display: block;
+}
+.subitem li,
+.subitem2 li {
+	display: block;
+}
+.subitem li:hover,
+.subitem2 li:hover {
+	color: rgba(248, 249, 250, 0.801);
+}
+.sub-subitem-ul {
+	display: inline-block;
+}
+.sub-subitem-li {
+	display: block;
+	margin: 0 0 0 10px;
+	visibility: hidden;
+	opacity: 0;
+}
+.sub-subitem:hover ul li {
+	visibility: visible;
+	opacity: 1;
+	transition: 0.3s;
+	transform: scale(1.2) rotate(360deg);
+}
+.menu-items::after {
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
+	background-color: rgba(229, 229, 229, 0.5);
+}
+.item:hover {
+	border-bottom: 2px solid #DDBEA9;
+}
+.menu img {
+	vertical-align: middle;
+	margin-right: 0;
+}
+.menu img:hover {
+	transform: scale(1.5);
+	transition: all 0.2s;
+}
+.vence-title {
+	margin-bottom: 40px;
+}
+.vence-title *:not(:last-child) {
+	margin-bottom: 15px;
+}
+h1 {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	max-width: 605px
+}
+.data,
+.vence-title p,
+.page-number {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.67;
+	color: #E5E5E5;
+}
+.data {
+	display: inline-block;
+	height: 20.04px;
+}
+.data:hover::after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 80%;
+	background-color: #DDBEA9;
+}
+.vence-title p {
+	max-width: 499px;
+}
+.page-number {
+	text-align: right;
+	letter-spacing: 0.2em;
+}
+.page-number span::before {
+	content: "";
+	display: inline-block;
+	width: 44px;
+	height: 0.5px;
+	margin-right: 10px;
+	background-color: #F8F9FA;
+	vertical-align: middle;
+}
+.page-number span:hover::before {
+	transform: scale(0);
+	transition: all 1s;
+}
