@@ -497,12 +497,12 @@ h5 {
 	text-align: left;
 	font-size: 18px;
 }
-.text p:first-child,
-.text p:first-of-type {
+.child p:first-child,
+.of-type p:first-of-type {
 	text-transform: uppercase;
 }
-.text p:last-child,
-.text p:last-of-type {
+.child p:last-child,
+.of-type p:last-of-type {
 	text-transform: capitalize;
 	text-decoration: underline 1px dotted red;
 }
