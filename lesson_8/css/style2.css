@@ -459,7 +459,6 @@ img {
 	text-align: center;
 	border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
 	padding: 10px 30px;
-	vertical-align: top;
 }
 .practice-menu a:nth-child(1),
 .child {
@@ -472,7 +471,7 @@ img {
 .blocks {
 	text-align: center;
 	border-radius: 0px 0px 15px 15px;
-	padding: 10px;
+	padding: 15px 10px;
 }
 
 .block {
