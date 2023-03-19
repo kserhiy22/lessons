@@ -1,0 +1,99 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	text-shadow: 0px 0px 10px rgb(54, 85, 100);
+	background: rgb(195,195,185);
+	background: radial-gradient(circle, rgba(195,195,185,1) 0%, rgba(214,214,206,1) 28%, rgba(255,255,255,1) 100%);
+}
+[class*="-container"] {
+	max-width: 1270px;
+	padding: 50px 15px;
+	margin: 0 auto;
+}
+.main-block {
+	border-radius: 10px;
+	box-shadow: 0px 5px 15px black;
+}
+.main-block:not(:last-child) {
+	margin-bottom: 30px;
+}
+.block {
+	background-color: gray;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+h2 {
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+img {
+	max-width: 100%;
+}
+h3 {
+	font-size: 15px;
+	text-align: left;
+	color: aqua;
+}
+.image {
+	display: inline-block;
+	margin: 10px;
+	vertical-align: middle;
+}
+.image-r15 img {
+	border-radius: 15px;
+}
+.image-r10 img {
+	border-radius: 10px;
+}
+.image-r8 img {
+	border-radius: 8px;
+	max-height: 330px;
+}
+.image-r50 img {
+	overflow: hidden;
+	border-radius: 50%;
+}
+.image-r5 img {
+	border-radius: 5px;
+}
+.design-element {
+	display: inline-block;
+	min-height: 200px;
+	min-width: 200px;
+}
+.design-element:nth-child(1) {
+	background: url('../img/design_elements/dotted-shape.svg') 50% no-repeat;
+}
+.design-element:nth-child(2) {
+	background: url('../img/design_elements/dotted-shape-green.svg') 50% no-repeat;
+}
+.design-element:nth-child(3) {
+	background: url('../img/design_elements/dotted-shape-white.svg') 50% no-repeat;
+}
+.design-element:nth-child(4) {
+	background: url('../img/design_elements/ellipse-blue.svg') 50% no-repeat;
+}
+.design-element:nth-child(5) {
+	background: url('../img/design_elements/ellipse-green.svg') 50% no-repeat;
+}
+.design-element:nth-child(6) {
+	background: url('../img/design_elements/oval-blue.svg') 50% no-repeat;
+}
+.design-element:nth-child(7) {
+	background: url('../img/design_elements/oval-green.svg') 50% no-repeat;
+}
+.design-element:nth-child(8) {
+	background: url('../img/design_elements/shape.svg') 50% no-repeat;
+}
+.design-element:nth-child(9) {
+	background: url('../img/design_elements/vector-1.svg') 50% no-repeat;
+}
+.design-element:nth-child(10) {
+	background: url('../img/design_elements/vector-2.svg') 50% no-repeat;
+}
