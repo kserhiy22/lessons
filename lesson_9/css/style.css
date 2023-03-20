@@ -56,7 +56,8 @@ h3 {
 	max-height: 330px;
 }
 .image-r50 img {
-	overflow: hidden;
+	width: 165px;
+	height: 165px;
 	border-radius: 50%;
 }
 .image-r5 img {
