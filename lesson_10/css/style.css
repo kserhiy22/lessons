@@ -37,9 +37,11 @@
 .slider__block-main-title {
 	margin: 0 auto 133px;
 }
-.design,
+.design {
+	padding: 50px 0 10px;
+}
 .trending {
-	padding: 50px 0;
+	padding: 50px 0 80px;
 }
 /* в майбутньому - flex */
 .design__header * {
