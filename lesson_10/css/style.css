@@ -121,3 +121,19 @@
 .footer__address {
 	margin-right: 876px;
 }
+
+/* ========== gallery.html ========== */
+.gallery {
+	padding: 10px 0;
+}
+/* в майбутньому - flex */
+.gallery__images * {
+	margin: 10px 8.535px;
+}
+.gallery__images img:nth-child(3),
+.gallery__images img:nth-child(6),
+.gallery__images img:nth-child(9),
+.gallery__images img:nth-child(11),
+.gallery__images img:nth-child(14) {
+	margin-right: 0;
+}
