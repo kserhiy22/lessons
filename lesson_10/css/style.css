@@ -67,7 +67,8 @@
 	margin-right: 0px;
 }
 .catalog__card {
-	padding: 315px 50px 100px 50px;
+	border-radius: 3px;
+	padding: 315px 50px 50px 50px;
 	margin: 0 17.5px 20px 0;
 }
 .catalog__card :nth-child(2),
