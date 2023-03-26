@@ -134,7 +134,7 @@
 }
 /* в майбутньому - flex */
 .gallery__images img {
-	margin: 10px 8.535px;
+	margin: 10px 8px;
 }
 .gallery__images img:nth-child(3),
 .gallery__images img:nth-child(6),
