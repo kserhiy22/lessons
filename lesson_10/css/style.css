@@ -1,0 +1,123 @@
+@import url('reset.css');
+@import url('common.css');
+
+/* ========== header ========== */
+.header {
+	padding: 37px 0;
+}
+/* в майбутньому - flex */
+.header__row * {
+	display: inline-block;
+	vertical-align: middle;
+}
+.header__logo {
+	margin-right: 400px;
+}
+.header__nav-menu {
+	margin-right: 306px;
+}
+.header__social-menu li:last-child {
+	margin-right: 20px;
+}
+.header__social-menu {
+	border-right: 1px solid #E5E5E5;
+	margin-right: 20px;
+}
+
+/* ========== main ========== */
+.slider__body {
+	text-align: center;
+	padding: 192px 0 40px;
+	background: #212529 url("../img/slider/background.webp") center / cover no-repeat;
+	border-radius: 5px;
+}
+.slider__block-main-title {
+	margin: 0 auto 133px;
+}
+.design,
+.trending {
+	padding: 50px 0;
+}
+/* в майбутньому - flex */
+.design__header * {
+	display: inline-block;
+}
+.design__title,
+.trending__title {
+	max-width: 393px;
+}
+.design__title {
+	margin-right: 273px;
+}
+.design__header,
+.trending__title {
+	margin-bottom: 45px;
+}
+/* в майбутньому - flex */
+.design__card {
+	max-width: 393px;
+	margin: 0 26px 40px 0;
+}
+.design__card:nth-child(3n) {
+	margin-right: 0px;
+}
+.catalog__card {
+	padding: 315px 50px 100px 50px;
+	margin: 0 17.5px 20px 0;
+}
+.catalog__card :nth-child(2),
+.catalog__card :nth-child(5) {
+	margin-right: 0px;
+}
+.catalog__card:not(:first-child) .card__block-text {
+	max-width: 293px;
+}
+.catalog__card:nth-child(1) .card__block-text {
+	max-width: 343px;
+}
+.catalog__card:not(:first-child) {
+	max-width: 393px;
+}
+.catalog__card:nth-child(1) {
+	width: 807.5px;
+	background: #212529 url('../img/catalog/hallway.webp') no-repeat;
+}
+.catalog__card:nth-child(2) {
+	background: #212529 url('../img/catalog/vase.webp') no-repeat;
+}
+.catalog__card:nth-child(3) {
+	background: #212529 url('../img/catalog/stairs_armchair.webp') no-repeat;
+}
+.catalog__card:nth-child(4) {
+	background: #212529 url('../img/catalog/plants_interior.webp') no-repeat;
+}
+.catalog__card:nth-child(5) {
+	background: #212529 url('../img/catalog/dresser_armchair.webp') no-repeat;
+}
+
+/* ========== footer ========== */
+.footer {
+	padding: 20px 0;
+	background: #212529;
+}
+/* в майбутньому - flex */
+.footer__top-row *,
+.footer__bottom-row * {
+	display: inline-block;
+}
+.footer__logo {
+	margin-right: 378px;
+}
+.footer__nav-menu {
+	margin-right: 378px;
+}
+.footer__top-row,
+.footer__bottom-row {
+	padding: 40px 0;
+}
+.footer__top-row {
+	border-bottom: 1px solid rgba(229, 229, 229, 0.2);
+}
+.footer__address {
+	margin-right: 876px;
+}
