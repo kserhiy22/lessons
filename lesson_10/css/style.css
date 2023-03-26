@@ -25,6 +25,9 @@
 }
 
 /* ========== main ========== */
+.slider {
+	padding-bottom: 50px;
+}
 .slider__body {
 	text-align: center;
 	padding: 192px 0 40px;
