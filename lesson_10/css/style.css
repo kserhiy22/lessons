@@ -127,7 +127,7 @@
 	padding: 10px 0;
 }
 /* в майбутньому - flex */
-.gallery__images * {
+.gallery__images img {
 	margin: 10px 8.535px;
 }
 .gallery__images img:nth-child(3),
