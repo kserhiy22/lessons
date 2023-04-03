@@ -186,16 +186,15 @@ body {
 .sub-menu__link_parent::after {
 	content: "";
 	position: absolute;
-	width: 5.8px;
+	width: 25%;
 	height: 10.8px;
 	top: 5px;
-	right: 0px;
+	right: -25%;
 	background: url('../img/icons/arrow-turn-black.svg') 0 0 no-repeat;
 	transition: 0.3s;
 }
 .sub-menu__link_parent:hover::after {
 	background: url('../img/icons/arrow-blue.svg') 0 0 no-repeat;
-	transform: scale(1.2);
 }
 .sub-menu__dropdown {
 	position: absolute;
